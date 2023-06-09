@@ -87,3 +87,12 @@ p {
       right: 100%;
   }
 }
+
+
+/* Estilos para telas menores */
+@media screen and (max-width: 600px) {
+}
+/* Estilos para telas maiores */
+@media screen and (min-width: 601px) {
+
+}
