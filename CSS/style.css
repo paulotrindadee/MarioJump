@@ -88,11 +88,24 @@ p {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .game-board {
+    height: 70vh;
+  }
 
-/* Estilos para telas menores */
-@media screen and (max-width: 600px) {
+  .mario {
+    width: 100px;
+  }
 }
-/* Estilos para telas maiores */
-@media screen and (min-width: 601px) {
 
+@media screen and (min-width: 768px) {
+  .game-board {
+    height: 90vh;
+  }
+
+  .mario {
+    width: 150px;
+  }
 }
+
+
