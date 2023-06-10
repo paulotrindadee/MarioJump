@@ -1,9 +1,4 @@
-/*===Configuração de ajuste de tela===*/
-function ajustarTamanho() {
-  var larguraJanela = window.innerWidth
-  var alturaJanela = window.innerHeight
-}
-
+const jumpEvent = 'ontouchstart' in window ? 'touchstart' : 'keydown'
 const mario = document.querySelector('.mario')
 const pipe = document.querySelector('.pipe')
 const audioJump = document.querySelector('.audiojump')
@@ -51,6 +46,4 @@ const loop = setInterval(() => {
   }
 }, 10)
 
-document.addEventListener('keydown', jump)
-// Chame a função de ajuste de tamanho quando a janela for redimensionada
-window.addEventListener('resize', ajustarTamanho)
+document.addEventListener(jumpEvent, jump)

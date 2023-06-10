@@ -96,6 +96,10 @@ p {
   .mario {
     width: 100px;
   }
+
+  .pipe {
+    width: 60px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -106,6 +110,8 @@ p {
   .mario {
     width: 150px;
   }
+
+  .pipe {
+    width: 80px;
+  }
 }
-
-
